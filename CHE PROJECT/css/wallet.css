@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+
+.nav{
+    
+    
+    display: flex;
+    justify-content: center;
+    background-color: rgb(248, 247, 247);
+    padding:15px;
+    overflow:hidden;
+    position:sticky;
+    top: 0;
+    
+}
+#logo{
+    width: 150px;
+}
+#wallet{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(72, 197, 199);
+    letter-spacing: 2px;
+
+   
+     
+}
+
+#map{
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 2px;
+    color: rgb(2, 2, 2);
+    transition: transform 1s,color 0.7s;
+   
+
+
+
+}
+#home{
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 2px;
+    color: rgb(2, 2, 2);
+    transition: transform 1s,color 0.7s;
+    
+
+
+
+}
+#map:hover{
+    color: rgb(72, 197, 199);
+    transform: scale(1.1);
+}
+
+#home:hover{
+    color: rgb(72, 197, 199);
+    transform: scale(1.1);
+}
+
+
+.container{
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 100px;
+    color: aliceblue;
+}
+.balance{
+    text-align: center;
+}
+
+.transaction{
+    text-align: center;
+}
+
+.actions{
+    text-align: center;
+}
+
+#amount{
+    width: 300px;
+    border: 2px black solid ;
+    border-radius: 0;
+    padding: 10px;
+}
+#addButton{
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    transition: background-color 0.5s, color  0.5s;
+
+}
+#addButton:hover{
+    background-color: seagreen;
+    color: aliceblue;
+}
+
+#withdrawButton{
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    transition: background-color 0.5s, color  0.5s;
+
+}
+
+#withdrawButton:hover{
+    background-color: seagreen;
+    color: aliceblue;
+
+    padding: 8px;
+}
+
+
+#clearHistory{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    transition: background-color 0.5s, color  0.5s;
+}
+#clearHistory:hover{
+    background-color: seagreen;
+    color: aliceblue;
+
+    padding: 8px;
+}
+
+#transactionHistory{
+   text-align: center;
+   font-family:'Times New Roman', Times, serif;
+   background-color: rgb(46, 46, 51);
+   color: aliceblue;
+}
+
+
+.ogi{
+    padding: 10px;
+    background-color: rgb(46, 46, 51);
+    width: 500px;
+    height: 500px;
+}

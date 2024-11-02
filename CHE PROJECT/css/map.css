@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+
+.nav{
+    
+    
+    display: flex;
+    justify-content: center;
+    background-color: rgb(248, 247, 247);
+    padding:15px;
+    overflow: hidden;
+    position:sticky;
+    top: 0;
+    
+}
+#logo{
+    width: 150px;
+}
+#map{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(72, 197, 199);
+    letter-spacing: 2px;
+
+   
+     
+}
+
+#home{
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 2px;
+    color: rgb(2, 2, 2);
+    transition: transform 1s,color 0.7s;
+   
+
+
+
+}
+#wallet{
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 2px;
+    color: rgb(2, 2, 2);
+    transition: transform 1s,color 0.7s;
+    
+
+
+
+}
+#home:hover{
+    color: rgb(72, 197, 199);
+    transform: scale(1.1);
+}
+
+#wallet:hover{
+    color: rgb(72, 197, 199);
+    transform: scale(1.1);
+}
+
+.s{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    gap: 20px;
+    height: 400px;
+}
+
+
+.ss{
+    padding: 20px;
+    color: black;
+}
+
+#tts{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+
+#blah{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(40, 154, 34);
+    transition: border-radius 1s;
+}
+
+#blah:hover{
+        border-radius: 20px;
+}

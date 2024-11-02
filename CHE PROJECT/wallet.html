@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wallet</title>
+  <link rel="stylesheet" href="css/wallet.css">
+</head>
+<body>
+
+
+
+    <div class="nav">
+        <img src="images/Logo.png" id="logo">
+        <a href="index.html" id="home" target="_self">Home</a>
+        <a href="map.html" id="map" target="_self">Map</a>
+        <a href="wallet.html" id="wallet" target="_self" >Wallet</a>
+        
+    </div>
+
+<div class="container">
+    <center>
+    <div class="ogi">
+       <center> <h1>Wallet</h1> </center>
+        <div class="balance">
+            <h2>Balance: $<span id="balance">0.00</span></h2>
+        </div>
+        <div class="transaction">
+            <input type="number" id="amount" placeholder="Enter amount" />
+            <br>
+            <button id="addButton">Add Money</button>
+            <button id="withdrawButton">Withdraw Money</button>
+        </div>
+        <div class="actions">
+            <button id="clearHistory">Clear All Transactions</button>
+        </div>
+        <center><h3>Transaction History</h3></center>
+        <ul id="transactionHistory"></ul>
+        <div id="error" class="error"></div>
+    </div>
+    </div>
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
